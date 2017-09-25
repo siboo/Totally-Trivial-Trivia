@@ -30,7 +30,7 @@
 	var wrongAnswers;
 	var unanswered;
 	var checked = null;
-	var sec=10;
+	var sec=120;
 	var milisec = 0;
 	var intervalId;
 
