@@ -1,0 +1,83 @@
+
+.doneButton {
+
+	width: 150px;
+	height: 50px;
+	position: relative;
+	color: white;
+	background-color: pink;
+	border-color: white;
+	font-size: 30px;
+	vertical-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 550px;
+
+}
+
+#start-button{
+
+	width: 150px;
+	height: 70px;
+	position: relative;
+	color: white;
+	background-color: pink;
+	border-color: gray;
+	font-size: 100px;
+	vertical-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	align-self: center;
+	margin-top:7px;
+	
+
+}
+
+.jumbotron{
+
+	background-color: #AFE90F;
+	color: white;
+	position: relative;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.container{
+
+	width:100%;
+	background-color: #E9C50F;
+	background-color: grey;
+
+}
+.alert {
+
+    position: fixed;
+    top: 0px;
+}
+
+.quiz{
+
+	position: relative;
+	color: white;
+	text-align: center;
+	
+}
+
+#demo {
+
+	width: 100%
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#choiceItems {
+
+	background-color: #AFE90F;
+	color: white;
+	position: relative;
+	text-align: center;
+	margin-bottom: 0px;
+}

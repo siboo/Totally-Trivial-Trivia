@@ -1,0 +1,52 @@
+<!-- Trivial Trivia! -->
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Totally Trivial Trivia!</title>
+
+	<!--Added the link to jquery library-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Added a link to Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Added a link to style.css-->
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+</head>
+<body>
+
+	<div class="jumbotron">
+		<h1 class="text-primary text-center" id="quizContainer">Totally Trivial Trivia!</h1>
+		<div class="remainingTime" id="demo"></div>
+	</div>
+	
+	<div class="container">
+
+		<div class="text-center">
+        <button class="btn btn-success btn-md" id="start-button"><h1>START</h1></button>
+    	</div>
+
+		
+
+		<div class="quiz">
+	        <div class="question"></div>
+	        <div id="choiceItems">
+	        	<ul class="choiceList"></ul>
+	       	</div>
+        </div>
+
+        <button class="doneButton ">Done</button>
+	    <button class="backButton ">Back Question</button>
+
+	    <div class="quizMessage"></div>
+        <div class="result"></div>
+
+    </div>
+
+
+	<!--script-->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>	
+
+</body>
+</html>
